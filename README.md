@@ -1,6 +1,6 @@
 # Детекция заставок в сериалах с использованием CLIP и трансформеров
 
-Датасеты (`train_clip_sequences` и `test_clip_sequences`) и веса моделей находятся на [Google диске](https://drive.google.com/drive/folders/1RAYoixh6BIsK_a6KoVUoTTwFe8azLG6Q?usp=drive_link). Чтобы запустить ноутбук и все ссылки работали, нужно добавить в папку с проектом папки исходные видеоролки и папки из Google диска.
+Датасеты (`train_clip_sequences` и `test_clip_sequences`) и веса моделей находятся на [Google диске](https://drive.google.com/drive/folders/1RAYoixh6BIsK_a6KoVUoTTwFe8azLG6Q?usp=drive_link). Чтобы запустить ноутбук и все ссылки работали, нужно добавить в папку с проектом папки с исходными видеоролками (разархивированные `data_test_short` и `data_train_short`) и папки из Google диска.
 
 ## Описание задачи
 
@@ -118,8 +118,6 @@ Input: [batch_size, 60, 512]
 - Precision: `0.8100`
 - Recall: `0.7989`
 - F1 Score: `0.8044`
-
----
 
 > Несмотря на переобучение модели на тренировочных данных, **качество на тесте не ухудшается**, а наоборот — **незначительно растёт с увеличением числа эпох**.
 
