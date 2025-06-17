@@ -1,6 +1,6 @@
 # Детекция заставок в сериалах с использованием CLIP и трансформеров
 
-Датасеты (`train_clip_sequences` и `test_clip_sequences`) и веса моделей находятся на [Google диске](https://drive.google.com/drive/folders/1RAYoixh6BIsK_a6KoVUoTTwFe8azLG6Q?usp=drive_link). Чтобы запустить ноутбук и все ссылки работали, нужно добавить в папку с проектом исходные видеоролки и папки из Google диске.
+Датасеты (`train_clip_sequences` и `test_clip_sequences`) и веса моделей находятся на [Google диске](https://drive.google.com/drive/folders/1RAYoixh6BIsK_a6KoVUoTTwFe8azLG6Q?usp=drive_link). Чтобы запустить ноутбук и все ссылки работали, нужно добавить в папку с проектом папки исходные видеоролки и папки из Google диска.
 
 ## Описание задачи
 
